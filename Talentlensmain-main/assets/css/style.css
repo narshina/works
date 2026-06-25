@@ -1,0 +1,1835 @@
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-BlackItalic.woff2') format('woff2'),
+    url('BRSonoma-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-Bold.woff2') format('woff2'),
+    url('BRSonoma-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-Black.woff2') format('woff2'),
+    url('BRSonoma-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-BoldItalic.woff2') format('woff2'),
+    url('BRSonoma-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-ExtraLight.woff2') format('woff2'),
+    url('BRSonoma-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-ExtraLightItalic.woff2') format('woff2'),
+    url('BRSonoma-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-Light.woff2') format('woff2'),
+    url('BRSonoma-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-LightItalic.woff2') format('woff2'),
+    url('BRSonoma-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-Medium.woff2') format('woff2'),
+    url('BRSonoma-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-MediumItalic.woff2') format('woff2'),
+    url('BRSonoma-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-Regular.woff2') format('woff2'),
+    url('BRSonoma-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-RegularItalic.woff2') format('woff2'),
+    url('BRSonoma-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-SemiBold.woff2') format('woff2'),
+    url('BRSonoma-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-SemiBoldItalic.woff2') format('woff2'),
+    url('BRSonoma-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-Thin.woff2') format('woff2'),
+    url('BRSonoma-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BR Sonoma';
+  src: url('BRSonoma-ThinItalic.woff2') format('woff2'),
+    url('BRSonoma-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'BRSonoma';
+  src: url('../fonts/BRSonoma-Regular.woff2') format('woff2'),
+    url('../fonts/BRSonoma-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BRSonoma';
+  src: url('../fonts/BRSonoma-Medium.woff2') format('woff2'),
+    url('../fonts/BRSonoma-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BRSonoma';
+  src: url('../fonts/BRSonoma-SemiBold.woff2') format('woff2'),
+    url('../fonts/BRSonoma-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BRSonoma';
+  src: url('../fonts/BRSonoma-Bold.woff2') format('woff2'),
+    url('../fonts/BRSonoma-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'BRSonoma';
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'BRSonoma';
+    background-color: #EBEBEB;
+ 
+}
+
+
+
+.borderSection {
+  height: 40px;
+  background-color: #000;
+}
+
+header {
+  padding: 8px 0;
+
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+.containerClass {
+  max-width: 1176px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+header nav {
+  max-width: 878px;
+  width: 100%;
+
+  border-radius: 50px;
+  padding: 8px 10px 8px 14px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  border: 1px solid #E5E5E5;
+  margin: 3px auto;
+  background-color: rgba(255, 255, 255, 0.7); 
+  backdrop-filter: blur(30px);
+
+}
+
+header nav .logoSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+header nav .logoSection .icon img {
+  height: 41px;
+  width: 41px;
+  object-fit: contain;
+
+}
+
+header nav .logoSection .talentLogo {
+  margin-top: 10px;
+}
+
+
+header nav .logoSection .talentLogo img {
+  width: 100px;
+  height: 26px;
+  object-fit: contain;
+  margin-left: 8px;
+}
+
+
+
+
+
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+header ul:first-of-type {
+  justify-self: center;
+}
+
+
+header nav ul li a {
+  text-decoration: none;
+  color: #404040;
+  font-size: 14px;
+
+}
+
+
+
+
+header nav ul:last-child {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.primaryButton {
+  background: #000;
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none;
+
+}
+
+
+
+.heroSection {
+
+  background: #EBEBEB;
+  padding: 50px 0;
+}
+
+
+.heroSection .heroContent {
+  max-width: 753px;
+  margin: auto;
+  text-align: center;
+
+}
+
+
+.heroSection .heroContent h1 {
+  font-size: 64px;
+  font-weight: 500;
+  color: #111;
+  line-height: 1.2;
+  margin-bottom: 20px;
+
+}
+
+
+.heroSection .heroContent p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 438px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.animatedButton {
+  position: relative;
+  display: inline-block;
+  padding: 13px 49px;
+  border-radius: 30px;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.animatedButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  border-radius: inherit;
+  z-index: -1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.animatedButton span {
+  position: absolute;
+  top: 40%;
+  right: 10px;
+  width: 65%;
+  height: 80%;
+  background: linear-gradient(90deg, #356FE9, #ff512f, #f9c06a);
+  z-index: -2;
+  filter: blur(14px);
+  border-radius: inherit;
+  transition: right 0.4s ease-out;
+}
+
+.animatedButton:hover span {
+  right: 35%;
+}
+
+.heroSection .heroImageBox {
+ aspect-ratio: 1099/604;
+  margin: 60px auto 0;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+
+.heroSection .heroImageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.processSection {
+  background-color: #EBEBEB;
+  padding: 50px 0;
+}
+
+.processSection .topSection {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.processSection .topSection a {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 30px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.primaryHeading {
+  font-size: 56px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 16px;
+  line-height: 1.1;
+
+}
+
+.processSection .topSection p {
+  font-size: 18px;
+  color: #46484D;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.processSection .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 24px;
+  
+}
+
+
+.processSection .cards .card {
+  height: 425px;
+  background: #FAFAFA;
+  border-radius: 20px;
+  padding: 30px 24px;
+  text-align: left;
+  border: 1px solid #F0F0F0;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.processSection .cards .card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  position: absolute;
+  z-index: 2;
+}
+.processSection .cards .card img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.subContainerClass {
+  max-width: 1104px !important;
+  margin: 0 auto;
+}
+
+
+.featureSection {
+  background-color: #EBEBEB;
+  padding: 50px 0;
+}
+
+.featureSection .featureTextCenter {
+  text-align: center;
+  margin: 0 auto 60px;
+}
+
+.primaryHeading {
+  margin-bottom: 20px;
+}
+
+.featureSection .featureTextCenter p {
+  font-size: 20px;
+  color: #404040;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 485px;
+  width: 100%;
+  text-align: center;
+   margin: 0 auto 30px;
+}
+
+.featureSection .checkMarks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.featureSection .checkMarks span {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  text-align: left;
+  line-height: 1.4;
+  max-width: 208px;
+  width: 100%;
+}
+
+.featureSection .oneLine span{
+ max-width: 300px;
+ width: 100%;
+}
+
+.checkIcon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.featureHead{
+  max-width: 585px;
+  width: 100%;
+   margin: 0 auto 30px; 
+}
+
+
+.featureGraphic {
+  width: 100%;
+  background: #F9F9F9;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.graphicOne {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.graphicOne .boxOne {
+  width: 60%;
+  height: 280px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  position: relative;
+  z-index: 1;
+}
+
+
+.graphicTwo {
+  height: 452px;
+  position: relative;
+}
+
+.graphicTwo .boxLeft {
+  position: absolute;
+  left: 5%;
+  bottom: 3%;
+  width: 287px;
+  height: 207px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  z-index: 1;
+}
+
+.graphicTwo .boxRight {
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  width: 287px;
+  height: 207px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  z-index: 1;
+}
+
+
+.graphicThree {
+  height: 391px;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graphicThree .boxThree {
+  width: 35%;
+  height: 452px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  position: relative;
+  z-index: 2;
+}
+/* .graphicOne .bannerImg,
+.graphicOne .bannerOverlay {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 30%);
+} */
+
+.graphicOne .bannerImg,
+.graphicOne .bannerOverlay {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, transparent 15%, black 60%);
+  mask-image: linear-gradient(to bottom, transparent 0%, transparent 15%, black 60%);
+}
+
+
+.graphicFour {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graphicFour .boxFour {
+  width: 80%;
+  height: 280px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  position: relative;
+  z-index: 1;
+}
+
+.bannerImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  border-radius: 24px;
+}
+.bannerImg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bannerOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  border-radius: 24px;
+  pointer-events: none;
+}
+
+.featureImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+
+.performanceSection {
+  padding: 50px 0;
+  background-color: #EBEBEB;
+}
+
+.performanceSection .performancetext {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.cardSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.performanceCard {
+  background-color: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px 28px;
+  min-height: 284px;
+  gap: 45px;
+  
+}
+
+.performanceSection .cardSection .performanceCard h3 {
+  font-size: 40px;
+  color: black;
+  font-weight: 500;
+
+}
+
+.performanceSection .performanceCard p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #46484D;
+  margin: 20px 0 20px 0;
+
+
+}
+
+
+
+.pricingSection {
+  background-color: #EBEBEB;
+  padding: 50px 0;
+}
+
+.pricingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+
+.pricingSection .pricingTop {
+  
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricingSection .pricingTop .primaryHeading {
+  margin-bottom: 24px;
+}
+
+.pricingSection .toggleContainer {
+  display: flex;
+  align-items: center;
+  background-color: #F2F2F2;
+  border-radius: 40px;
+  padding: 4px;
+}
+
+.pricingSection .toggleBtn {
+  border: none;
+  background: transparent;
+  padding: 12px 32px;
+  border-radius: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #46484D;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+
+.pricingTabs {
+  border: none;
+  justify-content: center;
+ 
+}
+
+
+.pricingTabs .nav-link {
+  border: none;
+ 
+  border-radius: 25px;
+  padding: 8px 20px;
+  margin: 0 5px;
+  color: #000;
+}
+
+
+.pricingTabs .nav-link.active {
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+.pricingSection .pricingRight .tab-pane{
+ display: none;
+
+ 
+
+}
+
+
+.pricingSection .pricingRight .tab-pane.active {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.pricingSection .pricingRight .tab-pane .bottomContent{
+  padding-top: 20px;
+  border-top: 2px dashed #CFD2D6;
+  margin-top: auto;
+  
+}
+
+.toggleBtn.active {
+  background: #FFFFFF;
+  color: #111;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.pricingSection .discountBadge {
+  background-color: #DEDEDE;
+  font-size: 12px;
+  padding: 8px 15px;
+  border-radius: 22px;
+  font-weight: 600;
+  color: #111;
+}
+
+
+.pricingSection .pricingBottom {
+  width: 928px;
+  min-height: 382px;
+  background: #EBEBEB;
+  border: 1px solid #DCDCDC;
+  border-radius: 20px;
+  display: flex;
+  align-items: stretch;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.02);
+}
+
+.pricingSection .pricingLeft {
+  width: 50%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.includedTitle {
+  font-size: 14px;
+  color: #46484D;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.featuresList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+}
+
+.featuresList li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 16px;
+  color: #46484D;
+  font-weight: 500;
+}
+
+.tickCircle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  background: #EAEAEA;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.featuresList li img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.pricingRight {
+  flex: 1;
+  background: #FFFFFF;
+  border: 1.5px solid #2B6AFF;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.planTitle {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 12px;
+}
+
+.planDesc {
+  font-size: 15px;
+  color: #46484D;
+  line-height: 1.5;
+  margin-bottom: auto;
+}
+
+
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.priceBox {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+
+.priceAmount {
+  font-size: 34px;
+  font-weight: 600;
+  color: black;
+  line-height: 1;
+}
+
+.priceInterval {
+  font-size: 14px;
+  color: #46484D;
+  font-weight: 500;
+}
+
+.slotsBadge {
+  background: #356FE9;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.slotsBadge img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.slotsBadge span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.getStartedBtn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.getStartedBtn:hover {
+  opacity: 0.9;
+}
+
+
+.faqSection {
+  background-color: #EBEBEB;
+  padding: 50px 0;
+}
+
+.faqRow {
+  height: 458px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+
+.faqLeft {
+  width: 321px;
+}
+
+.faqTitle {
+  font-size: 56px;
+  font-weight: 500;
+  color: black;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+}
+
+.faqSubtitle {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  width: 100%;
+  max-width: 257px;
+}
+
+.contactSupportBtn {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.faqRight {
+  width: 665px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faqItem {
+  border: 1px solid #d5d5d5;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: #EBEBEB;
+}
+
+.faqItem.active {
+  background:#F2F2F2;
+  border: 1px solid #EBEBEB;;
+  
+}
+
+.faqHeader {
+  padding: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: medium;
+}
+
+.faqBody {
+  display: none;
+  padding: 0 24px 24px 24px;
+  font-size: 14px;
+  color: #46484D;
+  line-height: 1.6;
+}
+
+.faqItem.active .faqBody {
+  display: block;
+}
+
+.faqHeader span img {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+}
+
+.faqItem.active .faqHeader span img {
+  transform: rotate(180deg);
+}
+
+footer {
+  background-color: #EBEBEB;
+  padding: 0px 0 40px;
+  min-height: 425px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+footer .ctaSection {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+footer .ctaSection img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 24px;
+  object-fit: contain;
+}
+
+footer .ctaSection h2{
+  font-size: 56px;
+  font-weight: 500;
+  color: black;
+
+  margin-bottom: 16px;
+  line-height: 1.1;
+}
+
+footer .ctaSection p {
+  font-size: 18px;
+  color: #46484D;
+  margin-bottom: 40px;
+}
+
+
+footer .footerBottom {
+  text-align: center;
+  margin-top: 80px;
+}
+
+footer .copyrightRow {
+  font-size: 12px;
+  color: #46484D;
+  margin-bottom: 8px;
+}
+
+footer .footerBottom .footerLinks {
+  font-size: 12px;
+  color: #46484D;
+}
+
+footer .footerBottom .footerLinks a {
+  color: #46484D;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.footerLinks a:hover {
+  text-decoration: underline;
+}
+
+.navMenu {
+  display: contents;
+}
+
+.mobileMenuBtn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 4px;
+}
+
+@media (max-width: 1024px) {
+  .heroImageBox {
+    width: 100%;
+    height: auto;
+
+  }
+
+  .pricingTop,
+  .pricingBottom {
+    width: 100%;
+  }
+
+  .faqLeft {
+    width: 35%;
+  }
+
+  .faqRight {
+    flex: 1;
+    width: auto;
+  }
+
+  .faqRow {
+    gap: 20px;
+  }
+
+  .heroContent h1 {
+    font-size: 52px;
+  }
+
+  .pricingBottom {
+    height: auto;
+    min-height: 382px;
+  }
+
+  header nav {
+    width: 100%;
+    padding: 8px 20px;
+  }
+  .faqSection .faqRow{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 1280px) {
+
+  header nav {
+    max-width: 100%;
+  }
+
+  .pricingSection .pricingBottom {
+    width: 100%;
+  }
+
+  .containerClass {
+    max-width: 1100px;
+  }
+  .faqRow{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+@media(max-width:869px){
+
+  
+   
+    header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 20px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7); 
+  backdrop-filter: blur(30px);
+
+
+    
+    
+  }
+
+
+  .mobileMenuBtn {
+    display: block;
+  }
+
+  .navMenu {
+    display: none;
+    position: absolute;
+    top: 84px;
+    left: 0;
+    right: 0;
+   background-color: rgba(255, 255, 255, 0.9); 
+  backdrop-filter: blur(30px);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    z-index: 50;
+  }
+
+  .navMenu.open {
+    display: flex;
+  }
+
+  .navMenu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  header nav ul:first-of-type {
+    display: flex;
+  }
+
+  header nav ul:last-child li {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul:last-child li:last-child a {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+  }
+
+}
+
+
+@media(max-width:849px){
+  .pricingContainer{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 768px) {
+ 
+
+  .heroContent h1 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  .heroContent p {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .heroImageBox {
+    margin-top: 40px;
+  }
+
+
+  .primaryHeading,
+  .topSection h2,
+  .faqTitle,
+  .ctaTitle {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .cards,
+  .cardSection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .processSection .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricingSection .pricingBottom {
+   
+    width: 100%;
+  }
+
+  .card,
+  .performanceCard {
+    height: auto;
+    min-height: 200px;
+  }
+
+  .graphicOne .boxOne {
+    width: 90%;
+  }
+
+
+  .graphicTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .pricingContainer {
+    gap: 40px;
+  }
+
+
+
+  .pricingLeft,
+  .pricingRight {
+    width: 100%;
+    padding: 30px;
+  }
+
+
+
+
+  .priceAmount {
+    font-size: 36px;
+  }
+
+  .ctaGlow {
+    width: 150%;
+    height: 150%;
+  }
+  .featureSection{
+       padding: 60px 0;
+  }
+  .performanceSection{
+    padding: 55px 0;
+  }
+  .pricingSection{
+    padding: 37px 0;
+  }
+  .faqSection{
+    padding: 47px 0;
+  }
+  footer{
+    padding: 40px 0;
+  }
+  
+
+
+}
+
+
+@media (max-width: 580px) {
+
+  .heroContent h1,
+  .primaryHeading,
+  .topSection h2,
+  .faqTitle,
+  .ctaTitle {
+    font-size: 32px;
+  }
+  .heroSection{
+    padding: 40px 0;
+  }
+
+  .heroContent p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .heroSection .heroContent h1 {
+    font-size: 51px;
+  }
+
+  header nav ul:last-child {
+    gap: 12px;
+  }
+
+  header nav ul li a {
+    font-size: 14px;
+  }
+
+  header nav ul:last-child li:last-child a {
+    padding: 8px 20px;
+  }
+
+  .heroImageBox {
+    aspect-ratio: 1;
+    border-radius: 16px;
+  }
+
+
+  .pricingSection .pricingBottom {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .pricingSection .pricingRight .tab-pane .bottomContent{
+    margin-top: 20px;
+  }
+.pricingRight{
+  margin: 0;
+  order: 1;
+}
+
+.pricingLeft{
+  order: 2;
+}
+
+
+  .pricingLeft,
+  .pricingRight {
+    padding: 24px 20px;
+  }
+
+  .pricingTop {
+    padding: 0 16px;
+    text-align: center;
+  }
+
+
+
+  .faqHeader {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  .faqBody {
+    padding: 0 16px 16px 16px;
+  }
+
+  .featureSection{
+    padding: 40px 0;
+  }
+
+  .featureSection  .checkMarks {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 0;
+  
+  }
+  .featureSection .featureTextCenter{
+    margin: 0 ;
+  }
+
+  .checkMarks span {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .featuresList li {
+    align-items: flex-start;
+  }
+
+
+
+  .cards,
+  .cardSection {
+    grid-template-columns: 1fr;
+  }
+
+  .processSection .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .faqRow {
+    flex-direction: column;
+    height: auto;
+    gap: 32px;
+  }
+
+  .faqLeft,
+  .faqRight {
+    width: 100%;
+  }
+
+  .pricingSection .pricingLeft {
+    width: 100%;
+  }
+
+  .faqSection , .processSection,  
+  .pricingSection ,  
+  .performanceSection {
+    padding: 40px 0;
+  }
+
+
+ .graphicThree .boxThree {
+    width: 100%;
+    height: 393px;
+  }
+  .featureSection .featureTextCenter p{
+    font-size: 16px;
+  }
+.featureSection .checkMarks span{
+font-size: 12px;
+display: flex;
+align-items: center;
+margin: 10px 0 10px 0;
+}
+.priceAmount{
+  font-size: 30px;
+}
+footer .ctaSection h2{
+  font-size: 38px;
+}
+.graphicTwo .boxLeft{
+  width: 261px;
+}
+.graphicTwo .boxRight{
+  width: 261px;
+}
+
+    
+    
+
+}
+
+
+@media (max-width: 425px) {
+
+  .heroContent h1,
+  .primaryHeading,
+  .topSection h2,
+  .faqTitle,
+  .ctaTitle {
+    font-size: 32px;
+  }
+  .heroSection{
+    padding: 40px 0;
+  }
+
+  .heroContent p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .heroSection .heroContent h1 {
+    font-size: 51px;
+  }
+
+  header nav ul:last-child {
+    gap: 12px;
+  }
+
+  header nav ul li a {
+    font-size: 14px;
+  }
+
+  header nav ul:last-child li:last-child a {
+    padding: 8px 20px;
+  }
+
+  .heroImageBox {
+    aspect-ratio: 1;
+    border-radius: 16px;
+  }
+
+
+  .pricingSection .pricingBottom {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .pricingSection .pricingRight .tab-pane .bottomContent{
+    margin-top: 20px;
+  }
+.pricingRight{
+  margin: 0;
+}
+
+
+  .pricingLeft,
+  .pricingRight {
+    padding: 24px 20px;
+  }
+
+  .pricingTop {
+    padding: 0 16px;
+    text-align: center;
+  }
+
+
+
+  .faqHeader {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  .faqBody {
+    padding: 0 16px 16px 16px;
+  }
+
+  .featureSection{
+    padding: 40px 0;
+  }
+
+  .featureSection  .checkMarks {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 0;
+  
+  }
+  .featureSection .featureTextCenter{
+    margin: 0 ;
+  }
+
+  .checkMarks span {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .featuresList li {
+    align-items: flex-start;
+  }
+
+
+
+  .cards,
+  .cardSection {
+    grid-template-columns: 1fr;
+  }
+
+  .processSection .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .faqRow {
+    flex-direction: column;
+    height: auto;
+    gap: 32px;
+  }
+
+  .faqLeft,
+  .faqRight {
+    width: 100%;
+  }
+
+  .pricingSection .pricingLeft {
+    width: 100%;
+  }
+
+  .faqSection , .processSection,  
+  .pricingSection ,  
+  .performanceSection {
+    padding: 40px 0;
+  }
+
+
+ .graphicThree .boxThree {
+    width: 100%;
+  }
+  .featureSection .featureTextCenter p{
+    font-size: 16px;
+  }
+.featureSection .checkMarks span{
+font-size: 12px;
+display: flex;
+align-items: center;
+margin: 3px 0 ;
+max-width: 100%;
+}
+.priceAmount{
+  font-size: 30px;
+}
+footer .ctaSection h2{
+  font-size: 38px;
+}
+    
+    
+
+}
+
+
+
+
+
+@media (max-width: 320px) {
+  .containerClass {
+    padding: 0 15px;
+  }
+
+  .heroContent h1,
+  .heroSection .heroContent h1 {
+    font-size: 36px !important;
+  }
+
+  .heroContent p {
+    font-size: 13px !important;
+  }
+
+  .primaryHeading,
+  .topSection h2,
+  .faqTitle,
+  .ctaTitle {
+    font-size: 28px ;
+  }
+
+  .priceAmount {
+    font-size: 32px ;
+  }
+
+  .pricingLeft,
+  .pricingRight {
+    padding: 20px 15px ;
+  }
+
+  .featuresList li {
+    font-size: 14px ;
+  }
+
+  .getStartedBtn,
+  .ctaBtn {
+    padding: 12px 24px;
+    font-size: 14px ;
+  }
+
+  .faqHeader {
+    padding: 12px ;
+  }
+
+  .faqBody {
+    padding: 0 12px 12px 12px;
+  }
+  .pricingTabs .nav-link{
+    padding: 8px 9px;
+  }
+}
