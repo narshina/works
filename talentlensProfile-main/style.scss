@@ -1,0 +1,660 @@
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-BlackItalic.woff2') format('woff2'),
+        url('BRSonoma-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Bold.woff2') format('woff2'),
+        url('BRSonoma-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Black.woff2') format('woff2'),
+        url('BRSonoma-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-BoldItalic.woff2') format('woff2'),
+        url('BRSonoma-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-ExtraLight.woff2') format('woff2'),
+        url('BRSonoma-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-ExtraLightItalic.woff2') format('woff2'),
+        url('BRSonoma-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Light.woff2') format('woff2'),
+        url('BRSonoma-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-LightItalic.woff2') format('woff2'),
+        url('BRSonoma-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Medium.woff2') format('woff2'),
+        url('BRSonoma-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-MediumItalic.woff2') format('woff2'),
+        url('BRSonoma-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Regular.woff2') format('woff2'),
+        url('BRSonoma-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-RegularItalic.woff2') format('woff2'),
+        url('BRSonoma-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-SemiBold.woff2') format('woff2'),
+        url('BRSonoma-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-SemiBoldItalic.woff2') format('woff2'),
+        url('BRSonoma-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-Thin.woff2') format('woff2'),
+        url('BRSonoma-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('BRSonoma-ThinItalic.woff2') format('woff2'),
+        url('BRSonoma-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('../fonts/BRSonoma-Regular.woff2') format('woff2'),
+        url('../fonts/BRSonoma-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('../fonts/BRSonoma-Medium.woff2') format('woff2'),
+        url('../fonts/BRSonoma-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('../fonts/BRSonoma-SemiBold.woff2') format('woff2'),
+        url('../fonts/BRSonoma-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BRSonoma';
+    src: url('../fonts/BRSonoma-Bold.woff2') format('woff2'),
+        url('../fonts/BRSonoma-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BR Sonoma', sans-serif;
+}
+
+.profilePage {
+    width: 100%;
+
+    .borderSection {
+        width: 100%;
+        height: 40px;
+        background-color: #000000;
+
+    }
+
+    .mainContent {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 340px calc(100% - 340px);
+        height: calc(100vh - 40px);
+        transition: grid-template-columns 0.35s ease-in-out;
+
+        @media(max-width:1024px) {
+            grid-template-columns: 80px calc(100% - 80px) !important;
+            position: relative;
+        }
+
+
+        &.collapsed {
+            grid-template-columns: 80px calc(100% - 80px);
+
+            .sideBar {
+                padding-top: 56px;
+
+                @media(max-width:1024px) {
+                    width: 80px;
+                    box-shadow: none;
+                }
+
+                @media(max-width:425px) {
+                    width: 60px;
+                    box-shadow: none;
+                }
+
+
+                .leftBox {
+                    padding-left: 0;
+                    padding-right: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .toggleBtn {
+                        margin-bottom: 32px;
+
+                        .hamburger-icon {
+                            display: block;
+                        }
+
+                        .close-icon {
+                            display: none;
+                        }
+                    }
+
+                    .logos {
+                        a {
+                            display: none;
+                        }
+
+                        button {
+                            padding-right: 0;
+                        }
+                    }
+
+                    p {
+                        display: none;
+                    }
+
+                    ul {
+                        width: 100%;
+
+                        li {
+
+                            padding: 16px 0;
+                            border-radius: 0;
+
+                            a {
+                                justify-content: center;
+                            }
+
+                            span {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        .sideBar {
+
+            padding-top: 56px;
+            background-color: #F7F7F7;
+            height: 100%;
+            // overflow-y: auto;
+            transition: width 0.35s ease-in-out, padding 0.35s ease-in-out;
+            overflow-x: hidden;
+
+            @media(max-width:1024px) {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 999;
+                width: 280px;
+
+                transition: width 0.3s ease;
+                overflow-x: hidden;
+            }
+
+            @media(max-width:425px) {
+                padding-top: 40px;
+            }
+
+
+            .leftBox {
+                width: 100%;
+                padding-left: 40px;
+
+                .toggleBtn {
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    color: #404040;
+                    display: flex;
+
+                    .hamburger-icon {
+                        display: none;
+                    }
+
+                    .close-icon {
+                        display: block;
+                    }
+                }
+
+                .logos {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 40px;
+                    padding: 0 16px;
+
+                    a {
+                        img {
+                            width: 167px;
+                            height: 48px;
+                            object-fit: contain;
+                        }
+                    }
+
+                    button {
+                        padding-right: 0px;
+                    }
+                }
+
+                p {
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: #8C8C8C;
+                    margin-bottom: 12px;
+                    padding-left: 16px;
+                    white-space: nowrap;
+                }
+
+                hr {
+                    border: 0.8px solid #46484d;
+                    opacity: 0.1;
+                    margin: 5px 0;
+                }
+
+                ul {
+                    list-style-type: none;
+                    padding-top: 0;
+
+                    li {
+
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #404040;
+                        padding: 16px 24px;
+
+                        border-top-left-radius: 8px;
+                        border-bottom-left-radius: 8px;
+                        transition: background-color 0.2s ease, color 0.2s ease;
+
+                        a {
+                            text-decoration: none;
+                            color: #404040;
+                            display: flex;
+                            align-items: center;
+                            gap: 16px;
+                            white-space: nowrap;
+                        }
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                            object-fit: contain;
+                        }
+
+                        &:hover {
+                            background-color: #EFEFEF;
+                        }
+
+                        &.active {
+                            background-color: #E6E6E6;
+                            color: #080808;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .profileContent {
+            padding-top: 56px;
+            height: 100%;
+            overflow-y: auto;
+            padding-bottom: 75px;
+            transition: all 0.35s ease-in-out;
+
+            @media(max-width:1024px) {
+                grid-column: 2;
+                position: relative;
+                z-index: 1;
+            }
+
+            @media(max-width:425px) {
+                padding-top: 40px;
+            }
+
+            .rightBox {
+                max-width: 1060px;
+                width: 100%;
+                margin: 0 auto;
+                padding: 0 20px;
+                transition: transform 0.35s ease-in-out, padding 0.35s ease-in-out;
+
+                @media(max-width:425px) {
+                    padding-left: 0;
+                }
+
+
+
+                .profileHeader {
+                    display: flex;
+                    align-items: center;
+                    gap: 32px;
+
+                    .profileImage {
+                        position: relative;
+
+                        img {
+                            width: 112px;
+                            height: 112px;
+                            object-fit: cover;
+                        }
+
+                        .editIcon {
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            z-index: 1;
+                            background-color: #FFFFFF;
+                            border-radius: 50%;
+
+                            a {
+                                img {
+                                    width: 16px;
+                                    height: 16px;
+                                    object-fit: contain;
+                                }
+                            }
+
+                        }
+
+                    }
+
+
+                    .profileInfo {
+                        h2 {
+                            font-size: 36px;
+                            font-weight: 500;
+                            color: #080808;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #404040;
+                            line-height: 1.2;
+                            margin-top: 8px;
+                        }
+                    }
+
+                    @media(max-width:425px) {
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+                }
+
+                .pro {
+                    padding: 12px 16px;
+                    margin-top: 16px;
+                    border-radius: 8px;
+                    background-color: #F7F7F7;
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+
+                    @media(max-width:425px) {
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+
+
+
+                    button {
+                        background-color: #080808;
+                        color: #FFFFFF;
+                        border-radius: 40px;
+                        border: none;
+                        padding: 4px 12px;
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #404040;
+                        margin-left: 12px;
+                        line-height: 1.2;
+
+                        @media(max-width:425px) {
+                            margin-left: 0;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+
+                .detailsSection {
+                    margin-top: 32px;
+
+                    h3 {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #080808;
+                        margin-bottom: 12px;
+                    }
+
+                    .detailsCard {
+                        border: 1px solid #E6E6E6;
+                        border-radius: 7px;
+                        background-color: #FFFFFF;
+
+                        .row {
+                            display: flex;
+                            align-items: flex-start;
+                            margin: 0 24px;
+                            padding: 18px 0;
+                            border-bottom: 1px solid #E6E6E6;
+
+
+                            &:last-child {
+                                border-bottom: none;
+                            }
+
+                            @media(max-width:425px) {
+                                flex-direction: column;
+                            }
+
+                            p {
+                                flex: 0 0 30%;
+                                font-size: 14px;
+                                font-weight: 500;
+                                color: #404040;
+                                line-height: 1.2;
+                            }
+
+                            input {
+                                flex: 1;
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #404040;
+                                line-height: 1.2;
+                                border: none;
+                                outline: none;
+
+
+
+
+
+                                @media(max-width:425px) {
+                                    padding: 10px 0;
+                                }
+                            }
+
+                            textarea {
+                                flex: 1;
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #404040;
+                                line-height: 1.2;
+                                outline: none;
+                                resize: none;
+                                border: none;
+                                padding: 0;
+                                margin: 0;
+                                text-align: left;
+
+                                @media(max-width:425px) {
+                                    padding: 10px 0;
+                                }
+                            }
+
+
+
+
+
+
+                            a {
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 1.2;
+                                text-decoration: none;
+                                color: #404040;
+                            }
+
+
+                            .delete-label {
+                                flex: 1;
+
+                                h4 {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: #080808;
+                                    margin-bottom: 4px;
+                                }
+
+                                p {
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    line-height: 1.2;
+                                    color: #080808;
+                                    opacity: 0.5;
+
+                                    @media(max-width:425px) {
+                                        padding-bottom: 4px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
